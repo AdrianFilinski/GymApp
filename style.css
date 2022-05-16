@@ -66,6 +66,7 @@ body {
 }
 
 h3, li {
+    font-size: 18px;
     color: #E2E2E6;
     list-style: none;
 }
@@ -77,4 +78,11 @@ h3 {
 
 li {
     padding: 3px;
+    font-size: 15px;
+}
+
+.header {
+    color: #E2E2E6;
+    font-size: 20px;
+    text-align: center;
 }
