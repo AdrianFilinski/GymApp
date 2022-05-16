@@ -57,12 +57,21 @@ body {
 }
 
 .training-plan {
+    position: absolute;
     margin: 10px;
     padding: 10px;
     height: 500px;
     width: 400px;
     background-color: #292929;
     border-radius: 15px;
+    opacity: 0;
+    transition: transform .5s, opacity .3s;
+    cursor: pointer;
+}
+
+.active {
+    transform: translateX(430px);
+    opacity: 1;
 }
 
 h3, li {
@@ -85,4 +94,11 @@ li {
     color: #E2E2E6;
     font-size: 20px;
     text-align: center;
+}
+
+.choose-training {
+    background-color: #292929;
+    height: 500px;
+    margin-left: 100px;
+
 }
