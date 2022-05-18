@@ -61,11 +61,11 @@ body {
 }
 
 .appOptions {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
+    height: 519px;
+    width: auto;
 }
 
 .training-plan {
@@ -74,11 +74,20 @@ body {
     position: relative;
     width: 422px;
     height: 520px;
+    background-color: #292929;
+    opacity: 0;
+    border-radius: 15px;
 
 }
 
+.fas {
+    margin-left: 400px;
+    margin-top: 5px;
+    color: #6155F2;
+}
+
 .active {
-    transform: translate(0px);
+    transform: translateX(450px);
     opacity: 1;
 }
 
@@ -86,7 +95,7 @@ h3, li {
     font-size: 18px;
     color: #E2E2E6;
     list-style: none;
-    text-align: center;
+    margin-left: 15px;
 }
 
 h3 {
@@ -106,17 +115,9 @@ li {
 }
 
 .closePlan {
-    justify-content: center;
-    text-align: center;
-    background: #6155F2;
-    color: white;
-    border: 1px solid #6155F2;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 170px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: auto;
+    margin: 20px;
+    background-color: #6155F2;
+    border: none;
 }
 
 .choose-training {
