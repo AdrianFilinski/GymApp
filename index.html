@@ -13,25 +13,40 @@
 
 <body>
     <div class="counter-app">
-        <div class="wrapper">
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-
-                <ul class="menu__box">
-                    <li><a class="menu__item" href="#">Historia</a></li>
-                    <li><a class="menu__item" href="#">Plan treningowy</a></li>
-                    <li><a class="menu__item" href="#">Pomiary</a></li>
+        <div class="appOptions">
+            <div class="training-plan"><i class="fas fa-solid fa-xmark"></i>
+                <ul>
+                    <h3>PUSH</h3>
+                    <li>1. Wyciskanie sztangi leżąc</li>
+                    <li>2. Wyciskanie sztangielek leżąc na ławce dodatniej</li>
+                    <li>3. Rozpiętki na bramie</li>
+                    <li>4. Wyciskanie sztangielek siedząc</li>
+                    <li>5. Wznosy ramion do boku</li>
+                    <li>6. Prostowanie ramion na bramie oburącz</li>
+                    <li>7. Prostowanie ramion na bramie jednorącz</li>
+                    <li>8. Przysiady ze sztangą</li>
                 </ul>
+                <ul>
+                    <h3>PULL</h3>
+                    <li>1. Ściąganie drążka do klatki nachwytem</li>
+                    <li>2. Ściąganie drążka do klatki podchwytem</li>
+                    <li>3. Wiosłowanie hantlą</li>
+                    <li>4. Przyciąganie uchwytu V do mostka</li>
+                    <li>5. Narciarz</li>
+                    <li>6. Uginanie ramion ze sztangą</li>
+                    <li>7. Uginanie ramion na bramie</li>
+                    <li>8. Martwy ciąg na prostych nogach</li>
+                </ul>
+                <button class="closePlan">Zamknij</button>
             </div>
+        </div>
+        <div class="wrapper">
             <div class="logo">
                 <img src="/image/GymApp_logo.png" alt="GymApp logo">
             </div>
             <button class="start-btn">Rozpocznij trening</button>
+            <button class="plan-btn accessory">Plan</button>
             <button class="history-btn accessory">Historia</button>
-            <button class="plan-btn accessory">Plan treningowy</button>
             <button class="measurement  -btn accessory">Pomiary</button>
 
             <div class="choose-training">
@@ -39,30 +54,7 @@
                 <input type="radio" value="Pull">
             </div>
         </div>
-        <div class="training-plan"><i class="fas fa-solid fa-xmark"></i>
-            <ul>
-                <h3>PUSH</h3>
-                <li>1. Wyciskanie sztangi leżąc</li>
-                <li>2. Wyciskanie sztangielek leżąc na ławce dodatniej</li>
-                <li>3. Rozpiętki na bramie</li>
-                <li>4. Wyciskanie sztangielek siedząc</li>
-                <li>5. Wznosy ramion do boku</li>
-                <li>6. Prostowanie ramion na bramie oburącz</li>
-                <li>7. Prostowanie ramion na bramie jednorącz</li>
-                <li>8. Przysiady ze sztangą</li>
-            </ul>
-            <ul>
-                <h3>PULL</h3>
-                <li>1. Ściąganie drążka do klatki nachwytem</li>
-                <li>2. Ściąganie drążka do klatki podchwytem</li>
-                <li>3. Wiosłowanie hantlą</li>
-                <li>4. Przyciąganie uchwytu V do mostka</li>
-                <li>5. Narciarz</li>
-                <li>6. Uginanie ramion ze sztangą</li>
-                <li>7. Uginanie ramion na bramie</li>
-                <li>8. Martwy ciąg na prostych nogach</li>
-            </ul>
-        </div>
+
     </div>
 
 
