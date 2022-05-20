@@ -68,17 +68,6 @@ body {
     width: auto;
 }
 
-.training-plan {
-    display: block;
-    width: 100%;
-    max-width: 285px;
-    text-align: center;
-    padding-bottom: 10px;
-    background-color: #292929;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px black;
-    opacity: 0;
-}
 
 .active {
     opacity: 1;
@@ -90,27 +79,18 @@ body {
 
 }
 
-h3, li {
-    font-size: 18px;
-    color: #E2E2E6;
-    list-style: none;
-    margin-left: 15px;
-}
-
-h3 {
-    margin: 5px;
-    padding: 5px;
-}
-
-li {
-    padding: 3px;
-    font-size: 15px;
-    margin: 5px 10px;
-}
-
 .closePlan {
     display: inline;
     margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #6155F2;
+    color: #E2E2E6;
+    border: none;
+}
+
+.next {
+    display: inline;
     padding: 10px;
     border-radius: 15px;
     background-color: #6155F2;
