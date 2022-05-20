@@ -14,7 +14,7 @@ body {
 }
 
 .counter-app {
-    position: relative;
+    position: absolute;
 }
 
 .wrapper {
@@ -28,6 +28,7 @@ body {
     background-color: #292929;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
+    opacity: 1;
 }
 
 
@@ -64,31 +65,29 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 519px;
     width: auto;
 }
 
 .training-plan {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 422px;
-    height: 520px;
+    display: block;
+    width: 100%;
+    max-width: 285px;
+    text-align: center;
+    padding-bottom: 10px;
     background-color: #292929;
-    opacity: 0;
     border-radius: 15px;
-
-}
-
-.fas {
-    margin-left: 400px;
-    margin-top: 5px;
-    color: #6155F2;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
 }
 
 .active {
-    transform: translateX(450px);
     opacity: 1;
+}
+
+.inactive {
+    opacity: 0;
+    padding: 0;
+
 }
 
 h3, li {
@@ -106,17 +105,16 @@ h3 {
 li {
     padding: 3px;
     font-size: 15px;
-}
-
-.h2 {
-    color: #E2E2E6;
-    font-size: 20px;
-    text-align: center;
+    margin: 5px 10px;
 }
 
 .closePlan {
-    margin: 20px;
+    display: inline;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
     background-color: #6155F2;
+    color: #E2E2E6;
     border: none;
 }
 
@@ -125,49 +123,4 @@ li {
     height: auto;
     margin-left: 100px;
     opacity: 0;
-}
-
-.measurement-form {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: #292929;
-    width: 200px;
-    border-radius: 15px;
-    margin-top: 10px;
-    color: #E2E2E6;
-    opacity: 1;
-
-}
-
-input {
-    height: 20px;
-    width: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-label {
-    text-align: right;
-    height: auto;
-}
-
-.fas-close {
-    margin-left: 180px;
-    margin-top: 5px;
-    color: #6155F2;
-}
-
-.save {
-    background-color: #6155F2;
-    border: none;
-    border-radius: 15px;
-    width: 60px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
