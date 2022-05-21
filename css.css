@@ -15,6 +15,13 @@ body {
     background-color: var(--second-color);
 }
 
+h1 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    font-size: 24px;
+    color: var(--first-color);
+}
 
 header {
     display: flex;
@@ -28,4 +35,8 @@ header {
 header p {
     color: var(--first-color);
     font-size: 24px;
+}
+
+img {
+    width: 160px;
 }
