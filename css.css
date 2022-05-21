@@ -18,9 +18,16 @@ body {
 h1 {
     display: flex;
     align-items: center;
-    width: auto;
-    font-size: 24px;
+    font-size: 34px;
     color: var(--first-color);
+}
+
+h2 {
+    color: var(--first-color);
+}
+
+.start-training h2 {
+    font-size: 26px;
 }
 
 header {
@@ -35,6 +42,15 @@ header {
 header p {
     color: var(--first-color);
     font-size: 24px;
+}
+
+.main-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: 0;
 }
 
 img {

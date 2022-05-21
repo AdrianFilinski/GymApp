@@ -12,19 +12,34 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>Gym Note</h1>
-            <img src="/image/GymLogo.png" alt="GymApp logo">
-            <p>Twój notes treningowy</p>
-        </header>
-        <button class="start-btn">Rozpocznij trening</button>
+
+    <header>
+        <h1>Gym Note</h1>
+        <img src="/image/GymLogo.png" alt="GymApp logo">
+        <p>Twój notes treningowy</p>
+    </header>
+    <main>
+        <div class="training-area">
+            <div class="training-area-push" id="1">
+                <h3></h3>
+            </div>
+            <div class="training-area-pull" id="2">
+                <h3></h3>
+            </div>
+            <div class="training-area-legs" id="3">
+                <h3></h3>
+            </div>
+        </div>
+    </main>
+    <div class="start-training">
+        <h2>Rozpocznij trening</h2>
         <div class="choose-training">
-            <input type="radio" value="Push">
+            <!-- <input type="radio" value="Push">
             <input type="radio" value="Pull">
-            <input type="radio" value="Legs">
+            <input type="radio" value="Legs"> -->
         </div>
     </div>
+
 
 
     <script src="script.js"></script>
