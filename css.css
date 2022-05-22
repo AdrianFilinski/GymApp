@@ -74,7 +74,7 @@ img {
 }
 
 .training-plan-area {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
