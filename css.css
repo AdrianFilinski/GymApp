@@ -74,5 +74,36 @@ img {
 }
 
 .training-plan-area {
-    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.training-plan-area h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.training-plan-area ul {
+    list-style-type: none;
+    margin: 10px;
+    color: var(--first-color);
+}
+
+.training-plan-area ul li {
+    padding: 5px;
+    min-width: 366px;
+}
+
+.training-plan-area-push {
+    border: 1px solid var(--first-color);
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.training-plan-area-pull {
+    border: 1px solid var(--first-color);
+    border-radius: 15px;
+    padding: 3px;
 }
