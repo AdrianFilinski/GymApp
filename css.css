@@ -75,7 +75,7 @@ img {
 
 .training-plan-area {
     display: none;
-    flex-wrap: wrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -108,9 +108,8 @@ img {
     padding: 3px;
 }
 
+
 .close {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
