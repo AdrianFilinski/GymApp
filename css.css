@@ -58,6 +58,7 @@ header p {
     border: none;
     cursor: pointer;
     background-color: var(--second-color);
+    border-radius: 15px;
     color: var(--first-color);
     padding: 5px;
     font-size: 18px;
@@ -70,4 +71,8 @@ header p {
 
 img {
     width: 160px;
+}
+
+.training-plan-area {
+    border: 1px solid red;
 }
