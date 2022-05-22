@@ -107,3 +107,21 @@ img {
     border-radius: 15px;
     padding: 3px;
 }
+
+.close {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--first-color);
+    padding: 5px;
+    font-size: 18px;
+    color: var(--first-color);
+    background-color: var(--second-color);
+}
+
+.close:hover {
+    color: var(--second-color);
+    background-color: var(--first-color);
+}
