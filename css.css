@@ -136,7 +136,6 @@ img {
     position: absolute;
     color: var(--first-color);
     background-image: var(--second-color);
-    justify-content: center;
     align-items: center;
 }
 
@@ -159,6 +158,8 @@ img {
 
 
 .training-area-container {
+    display: flex;
+    flex-direction: column;
     border: 1px solid white;
     padding: 20px;
     border-radius: 15px;
@@ -171,14 +172,19 @@ img {
 }
 
 
-.close-training, save-training {
-    justify-content: center;
-    align-items: center;
+.close-training, .save-training {
+    text-align: center;
     border-radius: 10px;
     border: 1px solid var(--first-color);
     padding: 5px;
+    margin: 3px 0;
     font-size: 18px;
     color: var(--first-color);
     background-color: var(--second-color);
     cursor: pointer;
+}
+
+.close-training:hover, .save-training:hover {
+    background-color: var(--first-color);
+    color: var(--second-color);
 }
