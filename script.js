@@ -9,6 +9,7 @@ const mainOptions = document.querySelector('.main-options')
 
 const showPlan = () => {
     trainingPlanArea.style.display = 'flex';
+
 }
 
 const closePlan = () => {
