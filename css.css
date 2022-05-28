@@ -42,7 +42,7 @@ header p {
     margin: 10px;
 }
 
-.main-options {
+.options {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,7 +52,7 @@ header p {
 }
 
 
-.main-options button {
+.options button {
     margin: 10px;
     width: auto;
     border: none;
@@ -64,7 +64,7 @@ header p {
     font-size: 18px;
 }
 
-.main-options button:hover {
+.options button:hover {
     color: var(--second-color);
     background-color: var(--first-color);
 }
@@ -73,37 +73,37 @@ img {
     width: 160px;
 }
 
-.training-plan-area {
+.training__plan {
     display: none;
     flex-flow: column;
     justify-content: center;
     align-items: center;
 }
 
-.training-plan-area h3 {
+.training__plan h3 {
     text-align: center;
     padding: 5px;
 }
 
-.training-plan-area ul {
+.training__plan ul {
     list-style-type: none;
     margin: 10px;
     color: var(--first-color);
 }
 
-.training-plan-area ul li {
+.training__plan ul li {
     padding: 5px;
     min-width: 366px;
 }
 
-.training-plan-area-push {
+.training__plan--push {
     border: 1px solid var(--first-color);
     border-radius: 15px;
     padding: 3px;
     box-shadow: 4px 3px 8px -2px rgb(195 199 221);
 }
 
-.training-plan-area-pull {
+.training__plan--pull {
     border: 1px solid var(--first-color);
     border-radius: 15px;
     padding: 3px;
@@ -128,7 +128,7 @@ img {
     background-color: var(--first-color);
 }
 
-.training-area {
+.training__area {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -139,25 +139,25 @@ img {
     align-items: center;
 }
 
-.training-area h2 {
+.training__area h2 {
     color: var(--first-color);
     margin: 10px;
 }
 
-.training-area input {
+.training__area input {
     width: 60px;
     padding: 3px 10px;
     margin: 6px 0;
 
 }
 
-.training-area p {
+.training__area p {
     text-align: left;
     padding: 5px;
 }
 
 
-.training-area-container {
+.training__area--container-push {
     display: flex;
     flex-direction: column;
     border: 1px solid white;

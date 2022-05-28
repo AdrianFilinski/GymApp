@@ -1,17 +1,16 @@
-const trainingPlanArea = document.querySelector('.training-plan-area');
-const trainingPlan = document.querySelector('.training-plan');
+const trainingPlanArea = document.querySelector('.training__plan');
+const trainingPlan = document.querySelector('.options--check');
 const closeBtn = document.querySelector('.close');
-const startTraining = document.querySelector('.start-training')
-const trainingPanel = document.querySelector('.training-area')
+const startTraining = document.querySelector('.options--start')
+const trainingPanel = document.querySelector('.training__area')
 const header = document.querySelector('header');
 const closeTrainingBtn = document.querySelector('.close-training')
-const mainOptions = document.querySelector('.main-options')
+const mainOptions = document.querySelector('.options')
 const typeOfTraining = document.querySelector('.type-of-training')
-const trainingAreaContainerPush = document.querySelector('.training-area-container-push')
-const pushType = document.getElementById('#1')
-const pullType = document.getElementById('#2')
+const trainingAreaContainerPush = document.querySelector('.training__area--container-push')
 
-let id;
+
+
 const showPlan = () => {
     trainingPlanArea.style.display = 'flex';
 }
