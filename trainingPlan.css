@@ -1,0 +1,36 @@
+.training__plan {
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.training__plan h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.training__plan ul {
+    list-style-type: none;
+    margin: 10px;
+    color: var(--first-color);
+}
+
+.training__plan ul li {
+    padding: 5px;
+    min-width: 366px;
+}
+
+.training__plan--push {
+    border: 1px solid var(--first-color);
+    border-radius: 15px;
+    padding: 3px;
+    box-shadow: 4px 3px 8px -2px rgb(195 199 221);
+}
+
+.training__plan--pull {
+    border: 1px solid var(--first-color);
+    border-radius: 15px;
+    padding: 3px;
+    box-shadow: 4px 3px 8px -2px rgb(195 199 221);
+}
