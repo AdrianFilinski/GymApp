@@ -25,6 +25,7 @@ const runTraining = () => {
     trainingPanel.style.display = 'flex';
     header.style.display = 'none';
     mainOptions.style.display = 'none';
+    closePlan();
 }
 
 const closeTraining = () => {
