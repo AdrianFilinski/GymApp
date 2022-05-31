@@ -127,6 +127,25 @@ header p {
 
 img {
     width: 480px;
+    margin: 0;
+    display: block;
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        width: 350px;
+        margin: auto;
+        display: block;
+    }
+
+    .input-container {
+        padding: 0;
+        margin: auto;
+    }
+
+    .training__area--container-push {
+        padding: 5px;
+    }
 }
 
 .input-container {
