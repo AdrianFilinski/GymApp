@@ -17,6 +17,10 @@ body {
     font-size: 22px;
 }
 
+img {
+    width: 450px;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -121,6 +125,11 @@ header p {
     border: 1px solid white;
     padding: 20px;
     border-radius: 15px;
+}
+
+.training__area--container-push p {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
