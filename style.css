@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 :root {
@@ -106,8 +104,8 @@ header p {
 
 .training__area input {
     width: 60px;
-    padding: 3px 10px;
-    margin: 6px 0;
+    padding: 3px 5px;
+    margin: 3px 0;
 
 }
 
@@ -125,44 +123,58 @@ header p {
     border-radius: 15px;
 }
 
-img {
-    width: 480px;
-    margin: 0;
-    display: block;
-}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     img {
-        width: 350px;
+        width: 250px;
         margin: auto;
         display: block;
     }
 
     .input-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        align-items: center;
         padding: 0;
         margin: auto;
     }
 
     .training__area--container-push {
+        width: 320px;
         padding: 5px;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     img {
-        width: 450px;
+        width: 400px;
         margin: 0;
         display: block;
     }
 }
 
-@media only screen and (max-width: 500px) {}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    img {
+        width: 380px;
+        margin: 0;
+        display: block;
+    }
+}
+
+.img {
+    width: 150px;
+}
 
 .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 1px solid white;
-    padding: 3px 0;
-    margin: 3px 0;
+    padding: 5px 0;
+    margin: 5px 0;
 }
+
 
 
 .close-training, .save-training {
