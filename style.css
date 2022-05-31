@@ -131,7 +131,7 @@ img {
     display: block;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     img {
         width: 350px;
         margin: auto;
@@ -147,6 +147,16 @@ img {
         padding: 5px;
     }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    img {
+        width: 450px;
+        margin: 0;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {}
 
 .input-container {
     border-bottom: 1px solid white;
