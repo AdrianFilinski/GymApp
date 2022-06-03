@@ -21,94 +21,163 @@
         <p>Twój notes treningowy</p>
     </header>
     <main>
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slides">
-                    <div class="training__area">
-                        <h2>Rozpocznij swój trening</h2>
-                        <div class="training__area--type">
-                            <label for="name">Typ treningu:</label>
-                            <input type="radio" value="push" name="radio" class="push__training">Push
-                            <input type="radio" value="pull" name="radio" class="pull__training">Pull
-                        </div>
-                        <div class="training__area--container-push">
-                            <p>Wyciskanie sztangi leżąc</p>
-                            <img src="/image/benchpress.png" alt="Wyciskanie sztangi leżąc">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" min="1" max="250" id="name">
-                                Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Wyciskanie sztangi na ławce dodatniej</p>
-                            <img src="/image/ławkadodatnia.png" alt="Wyciskanie sztangi na ławce dodatniej">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" min="1" max="150" id="name">
-                                Powtórzenia: <input class="exercises" type="number" min="1" max="50" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Wyciskanie na maszynie hammer</p>
-                            <img src="/image/hammer.png" alt="Wyciskanie na maszynie hammer">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" min="1" max="120" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name" min="1" max="20">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Wznosy barków</p>
-                            <img src="/image/wznosy.png" alt="Wyciskanie na maszynie hammer">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" min="1" max="120" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name" min="1" max="20">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Bokserskie wyciskanie linki na bramie</p>
-                            <img src="/image/bokserskiewyciskanielinki.png" alt="Bokserskie wyciskanie linki na bramie">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Wyciskanie hantli siedząc</p>
-                            <img src="/image/wyciskaniehantli.png" alt="Wyciskanie hantli siedząc">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Prostowanie ramion stojąc na wyciągu</p>
-                            <img src="/image/prostowanieramionstojąc.png" alt="Prostowanie ramion stojąc na wyciągu">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Prostowanie ramion zza głowy na wyciągu</p>
-                            <img src="/image/prostowanieramionnawyciagu.png"
-                                alt="Prostowanie ramion zza głowy na wyciągu">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Przysiady - front squad</p>
-                            <img src="/image/przysiadyzesztangazprzodu.png" alt="Przysiady - front squad">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <p>Wyprosty nóg na maszynie</p>
-                            <img src="/image/wyprostynognamaszynie.png" alt="Wyprosty nóg na maszynie">
-                            <div class="input-container">
-                                Ciężar: <input class="exercises" type="number" id="name">
-                                Powtórzenia: <input class="exercises" type="number" id="name">
-                                Serie: <input class="exercises" type="number" min="1" max="5" id="name">
-                            </div>
-                            <div class="control-buttons">
-                                <button class="save-training">Zapisz</button>
-                                <button class="close-training">Zamknij</button>
-                            </div>
-                        </div>
-                    </div>
+        <div class="training__area">
+            <h2>Rozpocznij swój trening</h2>
+            <div class="training__area--type">
+                <label for="name">Typ treningu:</label>
+                <input type="radio" value="push" name="radio" class="push__training">Push
+                <input type="radio" value="pull" name="radio" class="pull__training">Pull
+            </div>
+            <div class="training__area--container-push">
+                <p>Wyciskanie sztangi leżąc</p>
+                <img src="/image/benchpress.png" alt="Wyciskanie sztangi leżąc">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="250" id="name">
+                    Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wyciskanie sztangi na ławce dodatniej</p>
+                <img src="/image/ławkadodatnia.png" alt="Wyciskanie sztangi na ławce dodatniej">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="150" id="name">
+                    Powtórzenia: <input class="exercises" type="number" min="1" max="50" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wyciskanie na maszynie hammer</p>
+                <img src="/image/hammer.png" alt="Wyciskanie na maszynie hammer">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="120" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name" min="1" max="20">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wznosy barków</p>
+                <img src="/image/wznosy.png" alt="Wyciskanie na maszynie hammer">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="120" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name" min="1" max="20">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Bokserskie wyciskanie linki na bramie</p>
+                <img src="/image/bokserskiewyciskanielinki.png" alt="Bokserskie wyciskanie linki na bramie">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wyciskanie hantli siedząc</p>
+                <img src="/image/wyciskaniehantli.png" alt="Wyciskanie hantli siedząc">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Prostowanie ramion stojąc na wyciągu</p>
+                <img src="/image/prostowanieramionstojąc.png" alt="Prostowanie ramion stojąc na wyciągu">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Prostowanie ramion zza głowy na wyciągu</p>
+                <img src="/image/prostowanieramionnawyciagu.png" alt="Prostowanie ramion zza głowy na wyciągu">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Przysiady - front squad</p>
+                <img src="/image/przysiadyzesztangazprzodu.png" alt="Przysiady - front squad">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wyprosty nóg na maszynie</p>
+                <img src="/image/wyprostynognamaszynie.png" alt="Wyprosty nóg na maszynie">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <div class="control-buttons">
+                    <button class="save-training">Zapisz</button>
+                    <button class="close-training">Zamknij</button>
+                </div>
+            </div>
+            <div class="training__area--container-pull">
+                <p>Podciąganie</p>
+                <img src="/image/pull/podciaganie.png" alt="Podciąganie na drążku">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="250" id="name">
+                    Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wiosłowanie sztangą</p>
+                <img src="/image/pull/wiosłowaniesztanga.png" alt="Wiosłowanie sztangą">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="150" id="name">
+                    Powtórzenia: <input class="exercises" type="number" min="1" max="50" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Ściąganie drążka wyciągu górnego</p>
+                <img src="/image/pull/sciaganiedrazka.png" alt="Sciąganie drążka wyciągu górnego">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="120" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name" min="1" max="20">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Ściąganie linki wyciągu górnego w wąskim chwycie</p>
+                <img src="/image/pull/sciaganielinki.png" alt="Ściąganie linki wyciągu górnego w wąskim chwycie">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" min="1" max="120" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name" min="1" max="20">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Wiosłowanie hantlą jednorącz</p>
+                <img src="/image/pull/wiosłowaniehantlem.png" alt="Wiosłowanie hantlą jednorącz">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Odwodzenie ramion leżąc na ławce w pochyleniu</p>
+                <img src="/image/pull/tyłbarków.png" alt="Odwodzenie ramion leżąc na ławce w pochyleniu">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Zginanie ramion z gryfem łamanym</p>
+                <img src="/image/pull/zginanieramiongryf.png" alt="Zginanie ramion z gryfem łamanym">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Uginanie ramion z hantlami stojąc</p>
+                <img src="/image/pull/uginanieramion.png" alt="Uginanie ramion z hantlami stojąc">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Zginanie nóg na maszynie</p>
+                <img src="/image/pull/zginanienognamaszynie.png" alt="Zginanie nóg na maszynie">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <p>Brzuszki z obciążeniem</p>
+                <img src="/image/pull/brzuchzciezarem.png" alt="Brzuszki z obciążeniem">
+                <div class="input-container">
+                    Ciężar: <input class="exercises" type="number" id="name">
+                    Powtórzenia: <input class="exercises" type="number" id="name">
+                    Serie: <input class="exercises" type="number" min="1" max="5" id="name">
+                </div>
+                <div class="control-buttons">
+                    <button class="save-training">Zapisz</button>
+                    <button class="close-training">Zamknij</button>
                 </div>
             </div>
         </div>
