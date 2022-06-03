@@ -34,14 +34,16 @@ const closeTraining = () => {
     header.style.display = 'flex';
     mainOptions.style.display = 'flex';
     trainingAreaContainerPush.style.display = 'none';
-    trainingAreaContainerPush.style.display = 'none';
+    trainingAreaContainerPull.style.display = 'none';
 }
 
 const chooseTypeTraining = () => {
     if ((pushTrainingOptions).checked) {
+        trainingAreaContainerPull.style.display = 'none'
         trainingAreaContainerPush.style.display = 'flex'
     } else if (pullTrainingOptions.checked) {
         trainingAreaContainerPull.style.display = 'flex'
+        trainingAreaContainerPush.style.display = 'none'
     }
 }
 trainingPlan.addEventListener('click', showPlan);
