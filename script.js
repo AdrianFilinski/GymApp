@@ -8,6 +8,7 @@ const closeTrainingBtn = document.querySelector('.close-training')
 const mainOptions = document.querySelector('.options')
 const typeOfTraining = document.querySelector('.training__area--type')
 const trainingAreaContainerPush = document.querySelector('.training__area--container-push')
+const trainingAreaContainerPull = document.querySelector('.training__area--container-pull')
 const pushTrainingOptions = document.querySelector('.push__training')
 const pullTrainingOptions = document.querySelector('.pull__training')
 
@@ -32,13 +33,15 @@ const closeTraining = () => {
     trainingPanel.style.display = 'none';
     header.style.display = 'flex';
     mainOptions.style.display = 'flex';
+    trainingAreaContainerPush.style.display = 'none';
+    trainingAreaContainerPush.style.display = 'none';
 }
 
 const chooseTypeTraining = () => {
     if ((pushTrainingOptions).checked) {
         trainingAreaContainerPush.style.display = 'flex'
-    } else {
-        console.log('wybierz rodzaj treningu')
+    } else if (pullTrainingOptions.checked) {
+        trainingAreaContainerPull.style.display = 'flex'
     }
 }
 trainingPlan.addEventListener('click', showPlan);

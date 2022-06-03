@@ -118,7 +118,7 @@ header p {
 }
 
 
-.training__area--container-push {
+.training__area--container-push, .training__area--container-pull {
     display: none;
     flex-direction: column;
     border: 1px solid white;
@@ -126,7 +126,7 @@ header p {
     border-radius: 15px;
 }
 
-.training__area--container-push p {
+.training__area--container-push p, .training__area--container-pull p {
     text-align: center;
     text-transform: uppercase;
 }
