@@ -11,6 +11,7 @@ const trainingAreaContainerPush = document.querySelector('.training__area--conta
 const trainingAreaContainerPull = document.querySelector('.training__area--container-pull')
 const pushTrainingOptions = document.querySelector('.push__training')
 const pullTrainingOptions = document.querySelector('.pull__training')
+const plusBtn = document.querySelector('.fa-plus')
 
 
 
