@@ -48,10 +48,17 @@ const chooseTypeTraining = () => {
     }
 }
 
-plusBtn.addEventListener(function () {
+const addSerie = () => {
+    const addNewSerie = document.createElement('div')
+    addNewSerie.innerHTML =
+        `
+    Ciężar: <input class="exercises" type="number" min="1" max="250" id="text">
+                    Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
+                    <i class="fa-solid fa-plus"></i>
+    `
 
-})
-
+}
+plusBtn.addEventListener('click', addSerie);
 trainingPlan.addEventListener('click', showPlan);
 closeBtn.addEventListener('click', closePlan);
 startTraining.addEventListener('click', runTraining);
