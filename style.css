@@ -32,16 +32,15 @@ header {
 
 header h1 {
     align-items: center;
-    font-size: 34px;
     color: var(--first-color);
-    margin-top: 5px;
+    margin: 5px 0 0 0;
 }
 
 
-header p {
+header h2 {
     color: var(--first-color);
     font-size: 24px;
-    margin: 10px;
+    margin: 0;
 }
 
 .options {
@@ -63,7 +62,7 @@ header p {
     border-radius: 15px;
     color: var(--first-color);
     padding: 5px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .options button:hover {
@@ -106,7 +105,7 @@ header p {
     margin: 10px;
 }
 
-.training__area input {
+.training__area .exercises {
     width: 60px;
     padding: 3px 5px;
     margin: 3px 0;
