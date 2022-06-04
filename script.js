@@ -47,6 +47,11 @@ const chooseTypeTraining = () => {
         trainingAreaContainerPush.style.display = 'none'
     }
 }
+
+plusBtn.addEventListener(function () {
+
+})
+
 trainingPlan.addEventListener('click', showPlan);
 closeBtn.addEventListener('click', closePlan);
 startTraining.addEventListener('click', runTraining);
