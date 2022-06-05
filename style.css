@@ -130,9 +130,6 @@ header h2 {
     text-transform: uppercase;
 }
 
-.fa-plus {
-    cursor: pointer;
-}
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -144,11 +141,15 @@ header h2 {
 
     .input-container {
         display: flex;
-        flex-direction: column;
         font-size: 13px;
         align-items: center;
         padding: 0;
         margin: auto;
+    }
+
+    .input-container div {
+        display: flex;
+        flex-direction: column;
     }
 
     .training__area--container-push {
@@ -186,7 +187,13 @@ header h2 {
     margin: 5px 0;
 }
 
-
+.add {
+    background: none;
+    border: none;
+    color: var(--first-color);
+    transition: transform .3s;
+    cursor: pointer;
+}
 
 .close-training, .save-training {
     text-align: center;

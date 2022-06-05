@@ -11,7 +11,7 @@ const trainingAreaContainerPush = document.querySelector('.training__area--conta
 const trainingAreaContainerPull = document.querySelector('.training__area--container-pull')
 const pushTrainingOptions = document.querySelector('.push__training')
 const pullTrainingOptions = document.querySelector('.pull__training')
-const plusBtn = document.querySelector('.fa-plus')
+const plusBtn = document.querySelector('.add')
 
 
 
@@ -48,17 +48,11 @@ const chooseTypeTraining = () => {
     }
 }
 
-const addSerie = () => {
-    const addNewSerie = document.createElement('div')
-    addNewSerie.innerHTML =
-        `
-    Ciężar: <input class="exercises" type="number" min="1" max="250" id="text">
-                    Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
-                    <i class="fa-solid fa-plus"></i>
-    `
-
-}
-plusBtn.addEventListener('click', addSerie);
+plusBtn.addEventListener('click', function () {
+    plusBtn.insertAdjacentHTML('afterend', `Ciężar: <input class="exercises" type="number" min="1" max="250" id="text">
+  Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
+      <i class="fa-solid fa-plus"></i>`)
+})
 trainingPlan.addEventListener('click', showPlan);
 closeBtn.addEventListener('click', closePlan);
 startTraining.addEventListener('click', runTraining);
