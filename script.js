@@ -16,11 +16,11 @@ const plusBtn = document.querySelector('.add')
 
 
 const showPlan = () => {
-    trainingPlanArea.style.display = 'flex';
+    trainingPlanArea.classList.add('shown');
 }
 
 const closePlan = () => {
-    trainingPlanArea.style.display = 'none'
+    trainingPlanArea.classList.remove('shown')
 }
 
 const runTraining = () => {
@@ -50,8 +50,8 @@ const chooseTypeTraining = () => {
 
 plusBtn.addEventListener('click', function () {
     plusBtn.insertAdjacentHTML('afterend', `Ciężar: <input class="exercises" type="number" min="1" max="250" id="text">
-  Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
-      <i class="fa-solid fa-plus"></i>`)
+    Powtórzenia: <input class="exercises" type="number" min="1" max="" id="name">
+    <button class="add"><i class="fas fa-solid fa-plus"></i></button>`)
 })
 trainingPlan.addEventListener('click', showPlan);
 closeBtn.addEventListener('click', closePlan);

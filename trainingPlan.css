@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.shown {
+    display: flex;
+}
+
 .training__plan h3 {
     text-align: center;
     padding: 5px;
